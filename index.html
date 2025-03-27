@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts Start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Google Fonts End  -->
+     <!-- Font Awesome  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css Custom Style Start -->
+    <style type="text/tailwindcss">
+      @theme {
+        /* Google Fonts  */
+        --font-darkerGrotesque: "Darker Grotesque", sans-serif; 
+        --font-roboto: "Roboto", sans-serif; 
+        /* Custom Header Container Size  */
+        --spacing-headerContainer: 1380px; 
+      }
+    </style>
+    <!-- Css Custom Style Start -->
+  </head>
+  <body>
+    <!-- Header File Start  -->
+     <div class="headerPart">
+      <div class="max-w-full lg:mx-10 m-auto">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl font-roboto">UPLAND</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li class="px-3">
+                <details>
+                  <summary>Features</summary>
+                  <ul class="menu bg-base-200 rounded-box w-56">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li class="px-3">
+                <details>
+                  <summary>Download app</summary>
+                  <ul class="menu bg-base-200 rounded-box w-56">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li class="px-3">
+                <details>
+                  <summary>UI screens</summary>
+                  <ul class="menu bg-base-200 rounded-box w-56">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li class="px-3">
+                <details>
+                  <summary>Testimonials</summary>
+                  <ul class="menu bg-base-200 rounded-box w-56">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li class="px-3">
+                <details>
+                  <summary>FAQ</summary>
+                  <ul class="menu bg-base-200 rounded-box w-56">
+                    <li><a>Item 1</a></li>
+                    <li><a>Item 2</a></li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+            <div>
+              <a class="py-[6px] px-5 border-[2px] border-[#FF6231] rounded-2xl text-[#FF6231] text-[16px] font-medium font-roboto ">Free trial</a>
+            </div>
+            
+          </div>
+          <div class="navbar-end">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <!-- <a class="btn">Button</a> -->
+          </div>
+        </div>
+      </div>
+     </div>
+    
+    <!-- Header File End  -->
+  </body>
+</html>
